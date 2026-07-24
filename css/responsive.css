@@ -1,0 +1,258 @@
+/* =====================================================
+RESPONSIVE CSS
+Mobile / Tablet
+===================================================== */
+
+/* ---------- Tablet ---------- */
+
+@media (max-width: 1100px) {
+  .container {
+    max-width: 94%;
+  }
+
+  .nav li {
+    margin-left: 20px;
+  }
+
+  .banner {
+    height: 520px;
+  }
+
+  .banner img {
+    height: 520px;
+  }
+
+  .banner-content h1 {
+    font-size: 38px;
+  }
+
+  .service-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .advantage-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .industry-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 92%;
+  }
+
+  .section {
+    padding: 50px 0;
+  }
+
+  /* HEADER */
+
+  .header {
+    height: 70px;
+  }
+
+  .header-box {
+    height: 70px;
+  }
+
+  .logo img {
+    width: 140px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  /* BANNER */
+
+  .banner {
+    height: 420px;
+  }
+
+  .banner img {
+    height: 420px;
+  }
+
+  .banner-content {
+    left: 5%;
+
+    right: 5%;
+
+    text-align: center;
+  }
+
+  .banner-content h1 {
+    font-size: 30px;
+  }
+
+  .banner-content p {
+    font-size: 16px;
+  }
+
+  .banner-content a {
+    padding: 10px 25px;
+  }
+
+  /* INNER BANNER */
+
+  .inner-banner {
+    height: 260px;
+  }
+
+  .inner-banner img {
+    height: 260px;
+  }
+
+  .inner-banner-content h1 {
+    font-size: 28px;
+  }
+
+  .inner-banner-content p {
+    font-size: 15px;
+  }
+
+  /* TITLE */
+
+  .section-title h2 {
+    font-size: 28px;
+  }
+
+  /* GRID RESET */
+
+  .about-grid,
+  .about-detail,
+  .two-column,
+  .contact-layout,
+  .article-layout,
+  .solution-box {
+    grid-template-columns: 1fr;
+  }
+
+  .service-list,
+  .feature-box,
+  .advantage-cards,
+  .advantage-list,
+  .value-list,
+  .industry-list,
+  .news-grid,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* ABOUT */
+
+  .about-text h3 {
+    font-size: 24px;
+  }
+
+  /* NEWS */
+
+  .news-list {
+    grid-template-columns: 1fr;
+  }
+
+  .news-card {
+    display: block;
+  }
+
+  .news-card .news-img {
+    width: 100%;
+  }
+
+  .news-card .news-img img {
+    height: 220px;
+  }
+
+  .news-page-list .news-card {
+    display: block;
+  }
+
+  .news-card .news-info {
+    padding: 20px;
+  }
+
+  /* ARTICLE */
+
+  .article-content h2 {
+    font-size: 24px;
+  }
+
+  .article-content h3 {
+    font-size: 20px;
+  }
+
+  /* SIDEBAR */
+
+  .sidebar {
+    margin-top: 40px;
+  }
+
+  /* GALLERY */
+
+  .image-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .image-gallery img {
+    height: 240px;
+  }
+
+  /* PROCESS */
+
+  .process {
+    grid-template-columns: 1fr;
+  }
+
+  /* CONTACT */
+
+  .contact-form {
+    padding: 25px;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    padding: 40px 0 20px;
+  }
+
+  .footer-grid {
+    gap: 25px;
+  }
+}
+
+/* ---------- Small Phone ---------- */
+
+@media (max-width: 420px) {
+  .banner-content h1 {
+    font-size: 25px;
+  }
+
+  .banner-content p {
+    font-size: 14px;
+  }
+
+  .inner-banner-content h1 {
+    font-size: 24px;
+  }
+
+  .contact-banner h2 {
+    font-size: 26px;
+  }
+}
